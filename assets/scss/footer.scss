@@ -1,0 +1,36 @@
+footer{
+    p{
+        font-size: 36px;
+    }
+    .btn {
+        border-radius: 5px;
+        font-weight: 600;
+        padding: 5px 55px;
+        border: 0;
+    }
+    h2{
+        font-size: 22px;
+    }
+
+    .btn-cobalt-blue {
+        background: unset;
+        border: 2px solid $white;
+        color: $white;
+    }
+    input{
+        padding: 7px
+    }
+    .icon-social{
+        width: 30px;
+        height: 30px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .voltz-tech{
+        a{
+            font-size: 14px;
+        }
+    }
+}

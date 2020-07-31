@@ -1,0 +1,63 @@
+.banner {
+
+  h1 {
+    font-size: 42px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .btn {
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 12px 55px;
+    border: 0;
+  }
+
+  .btn-cobalt-blue {
+    background: white;
+    border: 2px solid $yellow;
+    color: $yellow;
+  }
+  .bn-1 {
+    background: url(../images/velhos-costas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 720px;
+    .container {
+      min-height: 720px;
+    }
+  }
+  .bn-2 {
+    background: url(https://cdn.stocksnap.io/img-thumbs/960w/laptop-work_NPL5SIJDCC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 720px;
+    .container {
+      min-height: 720px;
+    }
+  }
+  .bn-3 {
+    background: url(https://cdn.stocksnap.io/img-thumbs/960w/laptop-work_NPL5SIJDCC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 720px;
+    .container {
+      min-height: 720px;
+    }
+  }
+    .slick-active{
+      button:before {
+
+        opacity: 1 !important;
+
+      }
+    }
+
+  .slick-dots {
+    bottom: 70px;
+
+  }
+}
